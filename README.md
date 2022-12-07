@@ -4,10 +4,6 @@ WES Analysis scripts for "Immune determinants of response to neoadjuvant chemo-r
 
 ## Directory structure
 
- *batch1* scripts are contained in Batch1 folder
- *batch2* scripts are contained in Batch2 folder
- *batch3* scripts are contained in Batch3 folder
-
 Each "batch" folder has the same structure, e.g. :
 
  * [batch1](./batch1)
@@ -25,7 +21,7 @@ Each "batch" folder has the same structure, e.g. :
 
 #### Sequencing Data Processing and Alignment
 
-Three paired end sequencing batches were analyzed independently (Batch1: samples 8, 10, 11, 12, 15, 17, 18; Batch2: samples 20, 22, 24, 25, 26, 27, 29, 30, 31, 33, 34 ; Batch3: samples 35, 37, 39, 40, 41, 43, 45, 48, 49, 51, 52, 54, 55, 57) using Snakemake [Köster, Johannesand Rahmann, 2012], a workflow management and development system for data analysis, to ensure reproducibility, scalability, and portability of the code . Conda (https://docs.conda.io/en/latest/) was used for version control.
+Three paired end sequencing batches were analyzed independently (Batch1 samples: 8, 10, 11, 12, 15, 17, 18; Batch2 samples: 20, 22, 24, 25, 26, 27, 29, 30, 31, 33, 34 ; Batch3 samples: 35, 37, 39, 40, 41, 43, 45, 48, 49, 51, 52, 54, 55, 57) using Snakemake [Köster, Johannesand Rahmann, 2012], a workflow management and development system for data analysis, to ensure reproducibility, scalability, and portability of the code . Conda (https://docs.conda.io/en/latest/) was used for version control.
 
 
 Quality check of raw sequencing data was performed with  FastQC v0.11.9 [Andrews et al. 2010]. BBMap filterbytile.sh v38.90 (with parameters ud=0.75 qd=1 ed=1 ua=.5 qa=.5 ea=.5) was used to clean the FastQ files from the loss in quality associated with some tiles of the flowcell in Batch2 samples. FastQC was then re-applied to verify the quality of the reads after the above pre-filtering processes. Trimming was performed with BBMap bbduck v38.90 [BBMap - Bushnell B. - sourceforge.net/projects/bbmap/] (with parameters k=23 mink=11 rcomp=t ktrim=f kmask=N qtrim=rl trimq=5 forcetrimleft=5 forcetrimright2=0 overwrite=true) to remove adapter sequencences and low-quality bases from the reads.  FastQC was then re-applied to verify the quality of the reads after the above pre-filtering processes. 
