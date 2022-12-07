@@ -7,15 +7,15 @@ WES Analysis scripts for "Immune determinants of response to neoadjuvant chemo-r
 Each "batch" folder has the same structure, e.g. :
 
  * [batch1](./batch1)
-   * [qc_and_somatic_mutation_calling](./batch1/qc_and_somatic_mutation_calling)
-      * [Snakefile](./batch1/qc_and_somatic_mutation_calling/Snakefile)
-      * [Plot_MAF.R](./batch1/qc_and_somatic_mutation_calling/Plot_MAF.R)
-   * [cnv_ploidy](./batch1/cnv_ploidy)
-      * [Snakefile](./batch1/cnv_ploidy/Snakefile)
-      * [sequenza.R](./batch1/cnv_ploidy/sequenza.R)
-      * [low_int.txt](./batch1/cnv_ploidy/low_int.txt)
-      * [top_int.txt](./batch1/cnv_ploidy/top_int.txt)
-      * [sex.txt](./batch1/cnv_ploidy/sex.txt)
+   * [qc_and_somatic_mutation_calling](./batch1/qc_and_somatic_mutation_calling) 
+      * [Snakefile](./batch1/qc_and_somatic_mutation_calling/Snakefile) [QC, alignment, and somatic calling Snakefile]
+      * [Plot_MAF.R](./batch1/qc_and_somatic_mutation_calling/Plot_MAF.R) [Rscript to summarize, analyze, annotate, and visualize Mutation Annotation Format (MAF) files]
+   * [cnv_ploidy](./batch1/cnv_ploidy) 
+      * [Snakefile](./batch1/cnv_ploidy/Snakefile) [Sequenza snakemake rules]
+      * [sequenza.R](./batch1/cnv_ploidy/sequenza.R) [Sequenza Rscript called inside the Snakefile]
+      * [low_int.txt](./batch1/cnv_ploidy/low_int.txt) [min purity interval]
+      * [top_int.txt](./batch1/cnv_ploidy/top_int.txt) [max purity interval]
+      * [sex.txt](./batch1/cnv_ploidy/sex.txt) [sex of the patient]
 
 ## WES Methods complete section
 
