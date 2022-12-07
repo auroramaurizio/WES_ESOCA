@@ -4,9 +4,9 @@ WES Analysis scripts for "Immune determinants of response to neoadjuvant chemo-r
 
 ## Directory structure
 
-#### *batch1* scripts are contained in Batch1 folder
-#### *batch2* scripts are contained in Batch2 folder
-#### *batch3* scripts are contained in Batch3 folder
+ *batch1* scripts are contained in Batch1 folder
+ *batch2* scripts are contained in Batch2 folder
+ *batch3* scripts are contained in Batch3 folder
 
 Each "batch" folder has the same structure, e.g. :
 
