@@ -9,7 +9,7 @@ Each "batch" folder has the same structure, e.g. :
  * [batch1](./batch1)
    * [qc_and_somatic_mutation_calling](./batch1/qc_and_somatic_mutation_calling)
       * [Snakefile](./batch1/qc_and_somatic_mutation_calling/Snakefile)
-      * [Snakefile](./batch1/qc_and_somatic_mutation_calling/Plot_MAF.R)
+      * [Plot_MAF.R](./batch1/qc_and_somatic_mutation_calling/Plot_MAF.R)
    * [cnv_ploidy](./batch1/cnv_ploidy)
       * [Snakefile](./batch1/cnv_ploidy/Snakefile)
       * [sequenza.R](./batch1/cnv_ploidy/sequenza.R)
