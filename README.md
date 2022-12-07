@@ -10,7 +10,7 @@ Each "batch" folder has the same structure, e.g. :
    * [qc_and_somatic_mutation_calling](./batch1/qc_and_somatic_mutation_calling) 
       * [Snakefile](./batch1/qc_and_somatic_mutation_calling/Snakefile) [QC, alignment, and somatic calling Snakefile]
       * [Plot_MAF.R](./batch1/qc_and_somatic_mutation_calling/Plot_MAF.R) [Rscript to summarize, analyze, annotate, and visualize MAF files]
-   * [cnv_ploidy_purity](./batch1/cnv_ploidy) 
+   * [cnv_ploidy_purity](./batch1/cnv_ploidy_purity) 
       * [Snakefile](./batch1/cnv_ploidy_purity/Snakefile) [Sequenza snakemake rules]
       * [sequenza.R](./batch1/cnv_ploidy_purity/sequenza.R) [Sequenza Rscript called inside the Snakefile]
       * [low_int.txt](./batch1/cnv_ploidy_purity/low_int.txt) [min purity interval]
