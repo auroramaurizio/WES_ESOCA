@@ -1,6 +1,7 @@
 # WES_ESOCA
 WES Analysis scripts for "Immune determinants of response to neoadjuvant chemo-radiation in esophageal adenocarcinoma" publication
 
+[![DOI](https://zenodo.org/badge/575453310.svg)](https://zenodo.org/badge/latestdoi/575453310)
 
 ## Directory structure
 
