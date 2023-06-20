@@ -3,7 +3,7 @@ WES Analysis scripts for "Pre-existing immunity drives the response to neoadjuva
 
 [![DOI](https://zenodo.org/badge/575453310.svg)](https://zenodo.org/badge/latestdoi/575453310)
 
-## Raw fastq data in EGA. Study ID EGAS00001007245. 
+### Raw fastq data in EGA. Study ID EGAS00001007245. 
 
 ## Directory structure
 
