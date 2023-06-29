@@ -508,7 +508,6 @@ rule Tumor_matched_Normal:
         pon = "pon.vcf.gz"
     params:
         baits = "/beegfs/datasets/buffer/ric.cosr/GRCh38_GDC/annotation/agilent_v7_sureselect_MergedProbes.interval_list",
-        ref_fasta = "GRCh38_Verily/bwa-0.7.12/GRCh38_Verily_v1.genome.fa",
         normal = "{sample}_PBMC",
         germres = "/beegfs/datasets/genomes/hg38/GATK_pypette/af-only-gnomad.hg38.vcf.gz",
         tmpdir = "/beegfs/scratch/tmp"
