@@ -1,5 +1,6 @@
 # WES_ESOCA
-WES Analysis scripts for "Pre-existing immunity drives the response to neoadjuvant chemotherapy in esophageal adenocarcinoma" publication 
+WES Analysis scripts for "Pre-existing immunity drives the response to neoadjuvant chemotherapy in esophageal adenocarcinoma" publication. DOI:https://doi.org/10.1158/0008-5472.CAN-23-0356.
+ 
 
 [![DOI](https://zenodo.org/badge/575453310.svg)](https://zenodo.org/badge/latestdoi/575453310)
 
